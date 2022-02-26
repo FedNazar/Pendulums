@@ -18,7 +18,7 @@ public class Sequence4 : MonoBehaviour
 
     bool[] a = { false, false, false, false, false };
 
-    int tab = 0, o = 0;
+    int o = 0;
     public GameObject music;
     PauseDemo pause;
     AudioSource audioS;
@@ -75,15 +75,11 @@ public class Sequence4 : MonoBehaviour
         }
         if (timeValue >= 24)
         {
-            if (Input.GetKeyUp(KeyCode.Tab))
-            {
-                tab++;
-            }
-            if (Input.GetKeyUp(KeyCode.Space))
+            if (Input.GetMouseButtonDown(0))
             {
                 o++;
             }
-            if (o >= 7 && tab >= o && !hda)
+            if (o >= 17 && !hda)
             {
                 hda = true;
                 pause = music.GetComponent<PauseDemo>();

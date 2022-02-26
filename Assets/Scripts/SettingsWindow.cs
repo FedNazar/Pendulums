@@ -1,59 +1,18 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Rendering;
 
 public class SettingsWindow : MonoBehaviour
 {
-    Resolution[] resolutions;
-    public Dropdown resDropdown;
-
-    public GameObject opt43, loop, bmagent;
+    public GameObject loop, bmagent;
     public GameObject loopToggle;
     public GameObject volume;
-
-    public Toggle fullScrToggle;
 
     public AudioSource music;
     public PauseDemo pd;
 
     public RenderPipelineAsset[] aaLevels;
-
-    void Start()
-    {
-        resolutions = Screen.resolutions;
-        resDropdown.ClearOptions();
-        List<string> options = new List<string>();
-        int curRes = 0;
-        for (int i = 0; i < resolutions.Length; i++)
-        {
-            string option = resolutions[i].width + " x " + resolutions[i].height;
-            options.Add(option);
-            if (resolutions[i].width == Screen.currentResolution.width &&
-                resolutions[i].height == Screen.currentResolution.height)
-            {
-                curRes = i;
-            }
-        }
-
-        resDropdown.AddOptions(options);
-        resDropdown.value = curRes;
-        resDropdown.RefreshShownValue();
-
-        fullScrToggle.isOn = Screen.fullScreen;
-    }
-    
-    public void SetResolution(int resolution)
-    {
-        Screen.SetResolution(resolutions[resolution].width, resolutions[resolution].height,
-            Screen.fullScreen);
-    }
-
-    public void SetFullScreen(bool isFullScreen)
-    {
-        Screen.fullScreen = isFullScreen;
-    }
 
     public void SetTextureQuality(int quality)
     {
@@ -90,11 +49,6 @@ public class SettingsWindow : MonoBehaviour
     public void SetLoop(bool isOn)
     {
         loop.SetActive(isOn);
-    }
-
-    public void Set43Optimization(bool isOn)
-    {
-        opt43.SetActive(isOn);
     }
 
     public void SetBenchmarkMode(bool isOn)
