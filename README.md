@@ -1,6 +1,7 @@
 # Pendulums
  A demonstration **(NOT a demoscene production)** for a physics lesson made with Unity.
  Also it's in Ukrainian. And it has some eastereggs in it and a benchmark mode!
+ By the way, I composed the soundtrack for this demo (I used LMMS for this)!
  
 ## Keyboard controls
  Press Esc to end the demo.
