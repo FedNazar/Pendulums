@@ -11,7 +11,7 @@
  
 ## System Requirements
  - OS: Windows 7 (32-bit or 64-bit) or higher (Android 7.1 or higher for mobile version)
- - Processor: Intel Core 2 Duo or AMD Athlon X2
+ - Processor: Intel Core 2 Duo or AMD Athlon 64 X2
  - Graphics Card: Intel HD or equivalent
  - RAM: 2 GB
  
