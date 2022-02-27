@@ -1,7 +1,7 @@
 # Pendulums
  A demonstration **(NOT a demoscene production)** for a physics lesson made with Unity.
  Also it's in Ukrainian. And it has some eastereggs in it and a benchmark mode!
- Android 7.1 or higher is required.
+ Android 7.1 or higher is required. By the way, I composed the soundtrack for this demo (I used LMMS for this)!
  
 ## Controls
  Click the "Back" button to end the demo.
