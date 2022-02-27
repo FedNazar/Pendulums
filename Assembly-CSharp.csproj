@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\MoveObjectLerp.cs" />
     <Compile Include="Assets\Scripts\MoveObject.cs" />
     <Compile Include="Assets\Scripts\SettingsWindow.cs" />
-    <Compile Include="Assets\Scripts\RandomObjectSpawn.cs" />
     <Compile Include="Assets\Scripts\Sequences\Sequence5.cs" />
     <Compile Include="Assets\Scripts\PendulumWaves.cs" />
     <Compile Include="Assets\Scripts\BlinkingLamp.cs" />
