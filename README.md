@@ -10,6 +10,11 @@
 ## Building
  Unity **2020.3.20f1** or higher is required for building the demo.
  
+ Since Unity Asset Store EULA doesn't allow me to redistribute Standard Assets package
+ you need to [download](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351) 
+ it yourself. It's free. I used some simple models from Prototyping category. You need to import this package and put Prototyping folder
+ into Assets folder.
+ 
 ## Screenshots
 ![Scene 1](Screenshots/1.png)
 ![Scene 2](Screenshots/2.png)
